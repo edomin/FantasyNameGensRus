@@ -1,0 +1,483 @@
+function Generate()
+{
+	malePrefixes = new Array();
+	femalePrefixes = new Array();
+	maleSuffixes = new Array();
+	femaleSuffixes = new Array();
+	
+	function AddMalePrefix(prefix)
+	{
+		malePrefixes[malePrefixes.length] = prefix; //Добавить префикс
+		return;
+	}
+	function AddFemalePrefix(prefix)
+	{
+		femalePrefixes[femalePrefixes.length] = prefix; //Добавить префикс
+		return;
+	}
+	function AddMaleSuffix(suffix)
+	{
+		maleSuffixes[maleSuffixes.length] = suffix; //Добавить суффикс
+		return;
+	}
+
+	function AddFemaleSuffix(suffix)
+	{
+		femaleSuffixes[femaleSuffixes.length] = suffix; //Добавить суффикс
+		return;
+	}
+	
+	AddMalePrefix("Алак");
+	AddMalePrefix("Алтон");
+	AddMalePrefix("Кел");
+	AddMalePrefix("Адин");
+	AddMalePrefix("Амал");
+	AddMalePrefix("Ант");
+	AddMalePrefix("Бар");
+	AddMalePrefix("Бел");
+	AddMalePrefix("Брух");
+	AddMalePrefix("Берг");
+	AddMalePrefix("Бхин");
+	AddMalePrefix("Часз");
+	AddMalePrefix("Крон");
+	AddMalePrefix("Кал");
+	AddMalePrefix("Дхаун");
+	AddMalePrefix("Дур");
+	AddMalePrefix("Див");
+	AddMalePrefix("Риз");
+	AddMalePrefix("Элк");
+	AddMalePrefix("Калан");
+	AddMalePrefix("Элауг");
+	AddMalePrefix("Рхил");
+	AddMalePrefix("Эрт");
+	AddMalePrefix("Сэлдс");
+	AddMalePrefix("Фил");
+	AddMalePrefix("Фар");
+	AddMalePrefix("Орголл");
+	AddMalePrefix("Гэлд");
+	AddMalePrefix("Гхуан");
+	AddMalePrefix("Дин");
+	AddMalePrefix("Гул");
+	AddMalePrefix("Хатч");
+	AddMalePrefix("Сол");
+	AddMalePrefix("Рик");
+	AddMalePrefix("Дип");
+	AddMalePrefix("Иим");
+	AddMalePrefix("Им");
+	AddMalePrefix("Сорн");
+	AddMalePrefix("Илф");
+	AddMalePrefix("Илзт");
+	AddMalePrefix("Изз");
+	AddMalePrefix("Ист");
+	AddMalePrefix("Дуаг");
+	AddMalePrefix("Гел");
+	AddMalePrefix("Йар");
+	AddMalePrefix("Дриз");
+	AddMalePrefix("Ллт");
+	AddMalePrefix("Лес");
+	AddMalePrefix("Моурн");
+	AddMalePrefix("Рилд");
+	AddMalePrefix("Лиме");
+	AddMalePrefix("Малаг");
+	AddMalePrefix("Мас");
+	AddMalePrefix("Микар");
+	AddMalePrefix("Ран");
+	AddMalePrefix("Го");
+	AddMalePrefix("Ним");
+	AddMalePrefix("Мер");
+	AddMalePrefix("Над");
+	AddMalePrefix("Нал");
+	AddMalePrefix("Неер");
+	AddMalePrefix("Нил");
+	AddMalePrefix("Омар");
+	AddMalePrefix("Релон");
+	AddMalePrefix("Ворн");
+	AddMalePrefix("Фикс");
+	AddMalePrefix("Квил");
+	AddMalePrefix("Квар");
+	AddMalePrefix("Квев");
+	AddMalePrefix("Квил");
+	AddMalePrefix("Уэлв");
+	AddMalePrefix("Рил");
+	AddMalePrefix("Сзор");
+	AddMalePrefix("Тсаб");
+	AddMalePrefix("Крен");
+	AddMalePrefix("Ссз");
+	AddMalePrefix("Шар");
+	AddMalePrefix("Шинт");
+	AddMalePrefix("Сзин");
+	AddMalePrefix("Тат");
+	AddMalePrefix("Спир");
+	AddMalePrefix("Тлут");
+	AddMalePrefix("Тар");
+	AddMalePrefix("Таз");
+	AddMalePrefix("Теб");
+	AddMalePrefix("Ухлс");
+	AddMalePrefix("Хурз");
+	AddMalePrefix("Вэсз");
+	AddMalePrefix("Вик");
+	AddMalePrefix("Вал");
+	AddMalePrefix("Уод");
+	AddMalePrefix("Уэхл");
+	AddMalePrefix("Вруз");
+	AddMalePrefix("Урл");
+	AddMalePrefix("Ксун");
+	AddMalePrefix("Йаз");
+	AddMalePrefix("Закн");
+	AddMalePrefix("Зек");
+	AddMalePrefix("Зсз");
+	AddMalePrefix("Вуз");
+	
+	AddFemalePrefix("Акор");
+	AddFemalePrefix("Алаун");
+	AddFemalePrefix("Али");
+	AddFemalePrefix("Анг");
+	AddFemalePrefix("Ардул");
+	AddFemalePrefix("Аун");
+	AddFemalePrefix("Баэ");
+	AddFemalePrefix("Бал");
+	AddFemalePrefix("Бэлар");
+	AddFemalePrefix("Бриз");
+	AddFemalePrefix("Бур");
+	AddFemalePrefix("Чал");
+	AddFemalePrefix("Чар");
+	AddFemalePrefix("Чесс");
+	AddFemalePrefix("Дхаун");
+	AddFemalePrefix("Дил");
+	AddFemalePrefix("Дирз");
+	AddFemalePrefix("Дрис");
+	AddFemalePrefix("Эклав");
+	AddFemalePrefix("Элван");
+	AddFemalePrefix("Элв");
+	AddFemalePrefix("Эрел");
+	AddFemalePrefix("Этэ");
+	AddFemalePrefix("Фаер");
+	AddFemalePrefix("Фэлин");
+	AddFemalePrefix("Филф");
+	AddFemalePrefix("Гаусс");
+	AddFemalePrefix("Гэлд");
+	AddFemalePrefix("Гхуан");
+	AddFemalePrefix("Гин");
+	AddFemalePrefix("Грэй");
+	AddFemalePrefix("Хаэл");
+	AddFemalePrefix("Хал");
+	AddFemalePrefix("Хоун");
+	AddFemalePrefix("Иив");
+	AddFemalePrefix("Иим");
+	AddFemalePrefix("Иллиам");
+	AddFemalePrefix("Ин");
+	AddFemalePrefix("Илф");
+	AddFemalePrefix("Ираэ");
+	AddFemalePrefix("Ин");
+	AddFemalePrefix("Ийм");
+	AddFemalePrefix("Йан");
+	AddFemalePrefix("Джаэл");
+	AddFemalePrefix("Джун");
+	AddFemalePrefix("Джис");
+	AddFemalePrefix("Лаэл");
+	AddFemalePrefix("Лар");
+	AddFemalePrefix("Линеэр");
+	AddFemalePrefix("Лирд");
+	AddFemalePrefix("Луа");
+	AddFemalePrefix("Мал");
+	AddFemalePrefix("Май");
+	AddFemalePrefix("Микар");
+	AddFemalePrefix("Мин");
+	AddFemalePrefix("Мол");
+	AddFemalePrefix("Мир");
+	AddFemalePrefix("Нат");
+	AddFemalePrefix("Нэд");
+	AddFemalePrefix("Нхил");
+	AddFemalePrefix("Неэр");
+	AddFemalePrefix("Нулл");
+	AddFemalePrefix("Олор");
+	AddFemalePrefix("Пэллан");
+	AddFemalePrefix("Фаэр");
+	AddFemalePrefix("Фир");
+	AddFemalePrefix("Квалн");
+	AddFemalePrefix("Квар");
+	AddFemalePrefix("Квав");
+	AddFemalePrefix("Кил");
+	AddFemalePrefix("Раув");
+	AddFemalePrefix("Рил");
+	AddFemalePrefix("Сбат");
+	AddFemalePrefix("Саб");
+	AddFemalePrefix("Шин");
+	AddFemalePrefix("Шри");
+	AddFemalePrefix("Шур");
+	AddFemalePrefix("Шинт");
+	AddFemalePrefix("Син");
+	AddFemalePrefix("Ссап");
+	AddFemalePrefix("Сусп");
+	AddFemalePrefix("Талаб");
+	AddFemalePrefix("Тал");
+	AddFemalePrefix("Триэл");
+	AddFemalePrefix("Трисс");
+	AddFemalePrefix("Улвир");
+	AddFemalePrefix("Умраэ");
+	AddFemalePrefix("Вас");
+	AddFemalePrefix("Вик");
+	AddFemalePrefix("Виэр");
+	AddFemalePrefix("Влон");
+	AddFemalePrefix("Уаэр");
+	AddFemalePrefix("Ууйон");
+	AddFemalePrefix("Ксулл");
+	AddFemalePrefix("Ксун");
+	AddFemalePrefix("Йас");
+	AddFemalePrefix("Зар");
+	AddFemalePrefix("Зэбей");
+	AddFemalePrefix("Зэс");
+	AddFemalePrefix("Зилв");
+		
+	AddMaleSuffix("агх");
+	AddMaleSuffix("ас");
+	AddMaleSuffix("аун");
+	AddMaleSuffix("д");
+	AddMaleSuffix("афэин");
+	AddMaleSuffix("ауфэин");
+	AddMaleSuffix("лауним");
+	AddMaleSuffix("эрин");
+	AddMaleSuffix("атар");
+	AddMaleSuffix("астэ");
+	AddMaleSuffix("аонар");
+	AddMaleSuffix("ал");
+	AddMaleSuffix("глот");
+	AddMaleSuffix("антар");
+	AddMaleSuffix("лин");
+	AddMaleSuffix("роос");
+	AddMaleSuffix("акслэ");
+	AddMaleSuffix("даэр");
+	AddMaleSuffix("дрин");
+	AddMaleSuffix("зар");
+	AddMaleSuffix("дриирн");
+	AddMaleSuffix("дорн");
+	AddMaleSuffix("э");
+	AddMaleSuffix("эрд");
+	AddMaleSuffix("эйл");
+	AddMaleSuffix("фэин");
+	AddMaleSuffix("фрин");
+	AddMaleSuffix("ика");
+	AddMaleSuffix("эт");
+	AddMaleSuffix("имар");
+	AddMaleSuffix("инид");
+	AddMaleSuffix("инидиа");
+	AddMaleSuffix("ин");
+	AddMaleSuffix("интра");
+	AddMaleSuffix("атлаб");
+	AddMaleSuffix("ирахк");
+	AddMaleSuffix("гох");
+	AddMaleSuffix("йсс");
+	AddMaleSuffix("ках");
+	AddMaleSuffix("раэн");
+	AddMaleSuffix("дин");
+	AddMaleSuffix("агхар");
+	AddMaleSuffix("лин");
+	AddMaleSuffix("лочар");
+	AddMaleSuffix("мир");
+	AddMaleSuffix("мурсс");
+	AddMaleSuffix("нар");
+	AddMaleSuffix("олил");
+	AddMaleSuffix("нозз");
+	AddMaleSuffix("нэт");
+	AddMaleSuffix("нолу");
+	AddMaleSuffix("олин");
+	AddMaleSuffix("оним");
+	AddMaleSuffix("омф");
+	AddMaleSuffix("квалин");
+	AddMaleSuffix("нэт");
+	AddMaleSuffix("ой");
+	AddMaleSuffix("ор");
+	AddMaleSuffix("рар");
+	AddMaleSuffix("орвир");
+	AddMaleSuffix("олвир");
+	AddMaleSuffix("рак");
+	AddMaleSuffix("рил");
+	AddMaleSuffix("рээ");
+	AddMaleSuffix("ойн");
+	AddMaleSuffix("рин");
+	AddMaleSuffix("рал");
+	AddMaleSuffix("рисн");
+	AddMaleSuffix("трин");
+	AddMaleSuffix("тран");
+	AddMaleSuffix("тон");
+	AddMaleSuffix("тар");
+	AddMaleSuffix("олг");
+	AddMaleSuffix("тэл");
+	AddMaleSuffix("тирр");
+	AddMaleSuffix("дан");
+	AddMaleSuffix("дор");
+	AddMaleSuffix("дар");
+	AddMaleSuffix("диин");
+	AddMaleSuffix("уквэ");
+	AddMaleSuffix("дакс");
+	AddMaleSuffix("вэн");
+	AddMaleSuffix("вайас");
+	AddMaleSuffix("вилл");
+	AddMaleSuffix("вир");
+	AddMaleSuffix("храэ");
+	AddMaleSuffix("хриир");
+	AddMaleSuffix("хрис");
+	AddMaleSuffix("заэр");
+	AddMaleSuffix("зэн");
+	AddMaleSuffix("зир");
+	AddMaleSuffix("ил");
+	AddMaleSuffix("илн");
+	AddMaleSuffix("инйон");
+	AddMaleSuffix("ирд");
+	AddMaleSuffix("ираэн");
+	AddMaleSuffix("враэ");
+	AddMaleSuffix("ирр");
+	AddMaleSuffix("зт");
+	
+	AddFemaleSuffix("а");
+	AddFemaleSuffix("аке");
+	AddFemaleSuffix("аэ");
+	AddFemaleSuffix("аэр");
+	AddFemaleSuffix("афаэ");
+	AddFemaleSuffix("афай");
+	AddFemaleSuffix("ала");
+	AddFemaleSuffix("анна");
+	AddFemaleSuffix("арра");
+	AddFemaleSuffix("астэ");
+	AddFemaleSuffix("авин");
+	AddFemaleSuffix("айнэ");
+	AddFemaleSuffix("бастэ");
+	AddFemaleSuffix("брээна");
+	AddFemaleSuffix("брин");
+	AddFemaleSuffix("кикэ");
+	AddFemaleSuffix("кирл");
+	AddFemaleSuffix("да");
+	AddFemaleSuffix("диа");
+	AddFemaleSuffix("диира");
+	AddFemaleSuffix("дра");
+	AddFemaleSuffix("дриира");
+	AddFemaleSuffix("дрил");
+	AddFemaleSuffix("э");
+	AddFemaleSuffix("эари");
+	AddFemaleSuffix("эйл");
+	AddFemaleSuffix("ффин");
+	AddFemaleSuffix("фрин");
+	AddFemaleSuffix("йара");
+	AddFemaleSuffix("икэ");
+	AddFemaleSuffix("идил");
+	AddFemaleSuffix("иира");
+	AddFemaleSuffix("инидиа");
+	AddFemaleSuffix("инил");
+	AddFemaleSuffix("интра");
+	AddFemaleSuffix("исстра");
+	AddFemaleSuffix("итра");
+	AddFemaleSuffix("йра");
+	AddFemaleSuffix("кача");
+	AddFemaleSuffix("киира");
+	AddFemaleSuffix("лай");
+	AddFemaleSuffix("лара");
+	AddFemaleSuffix("лин");
+	AddFemaleSuffix("лочар");
+	AddFemaleSuffix("микэ");
+	AddFemaleSuffix("мурсс");
+	AddFemaleSuffix("на");
+	AddFemaleSuffix("нилээ");
+	AddFemaleSuffix("нисс");
+	AddFemaleSuffix("нитра");
+	AddFemaleSuffix("нолу");
+	AddFemaleSuffix("олин");
+	AddFemaleSuffix("ониа");
+	AddFemaleSuffix("ойсс");
+	AddFemaleSuffix("квалин");
+	AddFemaleSuffix("кварра");
+	AddFemaleSuffix("квири");
+	AddFemaleSuffix("ра");
+	AddFemaleSuffix("раэ");
+	AddFemaleSuffix("раэма");
+	AddFemaleSuffix("раэна");
+	AddFemaleSuffix("рииа");
+	AddFemaleSuffix("рил");
+	AddFemaleSuffix("риина");
+	AddFemaleSuffix("рина");
+	AddFemaleSuffix("ринэ");
+	AddFemaleSuffix("шалеэ");
+	AddFemaleSuffix("ссисн");
+	AddFemaleSuffix("стин");
+	AddFemaleSuffix("стра");
+	AddFemaleSuffix("тана");
+	AddFemaleSuffix("тара");
+	AddFemaleSuffix("траэ");
+	AddFemaleSuffix("трээ");
+	AddFemaleSuffix("тирр");
+	AddFemaleSuffix("уал");
+	AddFemaleSuffix("уэ");
+	AddFemaleSuffix("уит");
+	AddFemaleSuffix("унэ");
+	AddFemaleSuffix("уквэ");
+	AddFemaleSuffix("урра");
+	AddFemaleSuffix("ва");
+	AddFemaleSuffix("вайас");
+	AddFemaleSuffix("вилл");
+	AddFemaleSuffix("вирае");
+	AddFemaleSuffix("уаэ");
+	AddFemaleSuffix("уиира");
+	AddFemaleSuffix("уисс");
+	AddFemaleSuffix("ксаэ");
+	AddFemaleSuffix("ксэна");
+	AddFemaleSuffix("ксира");
+	AddFemaleSuffix("ил");
+	AddFemaleSuffix("иленэ");
+	AddFemaleSuffix("имма");
+	AddFemaleSuffix("инда");
+	AddFemaleSuffix("инраэ");
+	AddFemaleSuffix("враэ");
+	AddFemaleSuffix("ирр");
+	AddFemaleSuffix("зинэ");
+	
+	gender = document.getElementById("gender");
+	count = document.getElementById("count");
+	
+	switch (count.selectedIndex)
+	{
+		case 0:
+			j = 1;
+			break;
+		case 1:
+			j = 5;
+			break;
+		case 2:
+			j = 10;
+			break;
+		case 3:
+			j = 20
+			break;
+	}
+	for (i = 0; i < j; i++)
+	{
+		if (gender.selectedIndex == 0)
+			{
+				genPref = malePrefixes[Math.floor(Math.random() * malePrefixes.length)];
+			}
+			else
+			{
+				genPref = femalePrefixes[Math.floor(Math.random() * femalePrefixes.length)];
+			}
+			
+			if (gender.selectedIndex == 0)
+			{
+				genSuf = maleSuffixes[Math.floor(Math.random() * maleSuffixes.length)];
+			}
+			else
+			{
+				genSuf = femaleSuffixes[Math.floor(Math.random() * femaleSuffixes.length)];
+			}
+			
+			if (i == 0)
+			{
+				document.getElementById("result").innerHTML = genPref + genSuf;
+			}
+			else
+			{
+				document.getElementById("result").innerHTML += "<br/>" + genPref + genSuf;
+			}
+	}
+
+	return;
+}
+
+

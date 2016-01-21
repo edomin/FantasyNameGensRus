@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Gen_Names_Quenya</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+</head>
+
+<body>
+	Генератор имен Квенья. По материалам Дж. Р. Р. Толкина.
+	<br/>
+	Пол:
+	<select id="gender">
+		<option>
+			Мужчина
+		</option>
+		<option>
+			Женщина
+		</option>
+	</select>
+	<br/>
+	Количество имен:
+	<select id="count">
+		<option>
+			1
+		</option>
+		<option>
+			5
+		</option>
+		<option>
+			10
+		</option>
+		<option>
+			20
+		</option>
+	</select>
+	<button onclick="Generate()">Генерировать</button>
+	<div id="result">
+		
+	</div>
+	<script src="generator.js"></script>
+</body>
+
+</html>
