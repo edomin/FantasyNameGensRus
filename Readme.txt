@@ -7,7 +7,7 @@ How to use it:
 TODO:
 	Finish oldscan generator.
 
-This files under UNLICENSE:
+Source code of this files released to public domain (read UNLICENSE):
 	Gen_Names_Oldeng/*
 	Gen_Names_Oldscan/*
 	Gen_Names_Quenya/*
